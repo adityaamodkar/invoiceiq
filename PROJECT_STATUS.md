@@ -82,9 +82,16 @@ against a scratch database so `var/invoiceiq.db` was not touched.
 - Open question: "Due in the next 14 days" on Home lists blocked exact duplicates as due (the re-sent Dell invoice
   appears twice). Left unchanged pending a decision.
 
+## Deployment (10 Nov 2026)
+
+Live at https://invoiceiq-ap.streamlit.app from https://github.com/adityaamodkar/invoiceiq (branch `main`,
+Python 3.12; `packages.txt` installs Tesseract). Verified on the live site: all 14 test invoices give the expected
+results (7 / 3 / 4, touchless 50%), the batch took about 30 s, OCR works, the bundled font loads. Every push to
+`main` redeploys automatically. Everyone who opens the link shares one database, and it resets when the app restarts.
+
 ## Next (awaiting instruction)
 
-1. Reviewer correction and re-run screen (`parent_run_id` and `review_actions` already in the schema).
-2. Deployment to Streamlit Community Cloud (needs your repository confirmation).
+1. Tool document (functions, features, user journeys) and the 5-minute video script.
+2. Reviewer correction and re-run screen (`parent_run_id` and `review_actions` already in the schema).
 3. Optional LLM extraction provider (needs your choice of provider).
-4. Demo script and interview preparation.
+4. Not handled yet: tax-inclusive line prices ("incl. GST") and invoices with no line items.

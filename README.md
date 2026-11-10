@@ -15,6 +15,9 @@ InvoiceIQ **never initiates a payment**. Its job ends at the recommendation.
 
 Built for the Zamp AI Solutions Analyst case study, Problem Statement 1 (Finance / AP).
 
+**Live app:** https://invoiceiq-ap.streamlit.app (Streamlit Community Cloud, free tier: it sleeps when unused
+and takes about a minute to wake; history resets when it restarts).
+
 ---
 
 ## Run it locally
