@@ -1,0 +1,13 @@
+po_number,line_no,item_code,item_description,uom,quantity_ordered,unit_price,line_total,tax_rate
+PO-2026-0001,1,DL-LAT5450-I7,Dell Latitude 5450 Laptop (i7/16GB/512GB),Nos,10,82500.00,825000.00,18
+PO-2026-0001,2,DL-WD22TB4,Dell WD22TB4 Thunderbolt Dock,Nos,10,12000.00,120000.00,18
+PO-2026-0002,1,HP-ELB840-G11,HP EliteBook 840 G11 Laptop,Nos,5,100000.00,500000.00,18
+PO-2026-0003,1,HP-M27F,HP M27f 27-inch FHD Monitor,Nos,16,15000.00,240000.00,18
+PO-2026-0004,1,ABC-SG-500,Industrial Safety Gloves (Box of 50),Box,300,600.00,180000.00,18
+PO-2026-0005,1,SG-A4-75,A4 Copier Paper 75 GSM (Ream),Ream,200,260.00,52000.00,18
+PO-2026-0005,2,SG-TONER-12A,Laser Toner Cartridge 12A Compatible,Nos,10,1000.00,10000.00,18
+PO-2026-0006,1,DL-P2423D,Dell P2423D 24-inch QHD Monitor,Nos,20,20500.00,410000.00,18
+PO-2026-0007,1,,Corrugated Box 5-Ply 18x12x10 in,Pcs,1200,45.00,54000.00,18
+PO-2026-0007,2,,BOPP Packing Tape 48mm x 65m,Rolls,150,120.00,18000.00,18
+PO-2026-0008,1,HP-P24G5,HP P24 G5 24-inch FHD Monitor,Nos,30,12500.00,375000.00,18
+PO-2026-0009,1,,Stretch Film Roll 23 mic 500 mm,Rolls,200,380.00,76000.00,18

@@ -1,0 +1,6 @@
+vendor_id,legal_vendor_name,display_name,aliases,gstin,status,currency,address,state_code,payment_terms
+V001,Dell Technologies India Pvt Ltd,Dell India,Dell India|Dell Technologies India Private Limited|Dell International Services India,29AABCD1234E1Z4,Active,INR,"Divyasree Greens, Challaghatta, Bengaluru, Karnataka 560071",29,Net 30
+V002,HP India Sales Pvt Ltd,HP India,HP India Sales Private Limited|Hewlett-Packard India Sales,29AAACH4321M1ZI,Active,INR,"24 Salarpuria Arena, Hosur Road, Bengaluru, Karnataka 560030",29,Net 45
+V003,ABC Industrial Supplies,ABC Industrial,ABC Industrial|ABC Supplies,27AAFFA9876Q1ZG,Inactive,INR,"Plot 22, MIDC Bhosari, Pune, Maharashtra 411026",27,Net 30
+V004,Sigma Office Solutions Pvt Ltd,Sigma Office,Sigma Office Solutions|Sigma Office Solutions Private Limited,29AAFCS2468L1ZS,Active,INR,"88 Residency Road, Bengaluru, Karnataka 560025",29,Net 15
+V005,Deccan Packaging Solutions,Deccan Packaging,Deccan Packaging Solutions LLP|Deccan Packaging,36AAJFD4321P1Z6,Active,INR,"Plot 7, IDA Bollaram, Sangareddy, Telangana 502325",36,Net 30

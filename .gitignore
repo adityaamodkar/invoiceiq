@@ -1,0 +1,20 @@
+# Runtime state (SQLite database lives here)
+var/
+*.db
+*.db-journal
+
+# Secrets: never commit
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

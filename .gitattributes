@@ -1,0 +1,9 @@
+# Store text with LF; never touch the bytes of documents, images or fonts
+# (sample invoices are fingerprinted by SHA-256, so a changed byte would change their identity).
+* text=auto eol=lf
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.ttf binary
+*.svg text eol=lf
