@@ -69,7 +69,9 @@ input::placeholder, textarea::placeholder { color: var(--faint) !important; }
 """
 
 BASE = """
-@font-face { font-family:'Hanken Grotesk'; src:url('/app/static/fonts/HankenGrotesk.ttf') format('truetype');
+/* Relative URL: Streamlit Cloud serves the app under a /~/+/ prefix, so an absolute /app/static path misses it.
+   Every page path is one segment deep, so this resolves to <prefix>/app/static locally and in the cloud. */
+@font-face { font-family:'Hanken Grotesk'; src:url('app/static/fonts/HankenGrotesk.ttf') format('truetype');
   font-weight:100 900; font-display:swap; }
 :root { --font:'Hanken Grotesk', -apple-system, 'Segoe UI', system-ui, sans-serif; }
 html, body, .stApp, .stApp *:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not([class*="material"]) {
